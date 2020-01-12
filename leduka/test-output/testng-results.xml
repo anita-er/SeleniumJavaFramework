@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104" started-at="2019-12-18T07:44:47Z" finished-at="2019-12-18T07:44:47Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestNgGroupDemo.test3()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test3" class="com.leduka.TestNgGroupDemo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNgGroupDemo.test2()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test2" class="com.leduka.TestNgGroupDemo"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNgGroupDemo.test1()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test1" class="com.leduka.TestNgGroupDemo"/>
+        <method signature="TestNgGroupDemo.test2()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test2" class="com.leduka.TestNgGroupDemo"/>
+        <method signature="TestNgGroupDemo.test3()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test3" class="com.leduka.TestNgGroupDemo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="104" started-at="2019-12-18T07:44:47Z" finished-at="2019-12-18T07:44:47Z">
+      <class name="com.leduka.TestNgGroupDemo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test1" duration-ms="20" started-at="2019-12-18T13:14:47Z" finished-at="2019-12-18T13:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test2" duration-ms="16" started-at="2019-12-18T13:14:47Z" finished-at="2019-12-18T13:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.leduka.TestNgGroupDemo@51565ec2]" name="test3" duration-ms="12" started-at="2019-12-18T13:14:47Z" finished-at="2019-12-18T13:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.leduka.TestNgGroupDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
